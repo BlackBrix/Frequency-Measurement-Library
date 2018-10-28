@@ -6,18 +6,14 @@
   Analog comparator interrupt service is used to calculate period length
   Timer1 overflow interrupt service used to count overflow events
 
-
-
   
 
   Martin Nawrath KHM LAB3
-  Kunsthochschule für Medien Köln
+  Kunsthochschule fÃ¼r Medien KÃ¶ln
   Academy of Media Arts
   http://www.khm.de
-  http://interface.khm.de/index.php/labor/experimente/
+  http://interface.khm.de/index.php/lab/interfaces-advanced/frequency-measurement-library/
   
-
-
 	
 
   This library is free software; you can redistribute it and/or
