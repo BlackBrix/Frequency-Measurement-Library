@@ -6,6 +6,7 @@
  * KHM 2010 /  Martin Nawrath
  * Kunsthochschule fuer Medien Koeln
  * Academy of Media Arts Cologne
+ * http://interface.khm.de/index.php/lab/interfaces-advanced/frequency-measurement-library/
  */
 
 #include "FreqPeriod.h"
