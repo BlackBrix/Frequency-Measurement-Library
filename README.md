@@ -1,0 +1,2 @@
+# Frequency-Measurement-Library
+For frequency measurement in the audio or sub audio range the determination of the signal period length delivers the most accurate results. The architecture of the ATMEGA chip provides a special Counter and Capture unit which is designed to  do this job with a high precision. Compared to a Frequency Counter Library published here before, this method delivers a higher accuracy and speed in the range below 20 KHz.
