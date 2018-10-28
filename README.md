@@ -1,6 +1,6 @@
 # Frequency-Measurement-Library  
   
-<a href="http://interface.khm.de/wp-content/uploads/2010/06/FreqPeriodTitle.jpg"><img class="alignnone size-large wp-image-2526" title="FreqPeriodTitle" src="http://interface.khm.de/wp-content/uploads/2010/06/FreqPeriodTitle-360x259.jpg" alt="FreqPeriodTitle" width="360" height="259"></a>  
+<a href="raw/master/pics/FreqPeriodTitle.jpg"><img class="alignnone size-large wp-image-2526" title="FreqPeriodTitle" src="raw/master/pics/FreqPeriodTitle-360x259.jpg" alt="FreqPeriodTitle" width="360" height="259"></a>  
   
 For frequency measurement in the audio or sub audio range the determination of the signal period length delivers the most accurate results. The architecture of the ATMEGA chip provides a special Counter and Capture unit which is designed to  do this job with a high precision. Compared to a Frequency Counter Library published here before, this method delivers a higher accuracy and speed in the range below 20 KHz.  
   
