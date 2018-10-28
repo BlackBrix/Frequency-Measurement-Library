@@ -3,7 +3,7 @@ http://interface.khm.de/index.php/lab/interfaces-advanced/frequency-measurement-
   
 ---------
   
-# Frequency-Measurement-Library  
+## Frequency-Measurement-Library  
   
 <a href="https://github.com/BlackBrix/Frequency-Measurement-Library/raw/master/pics/FreqPeriodTitle.jpg"><img title="FreqPeriodTitle" src="https://github.com/BlackBrix/Frequency-Measurement-Library/raw/master/pics/FreqPeriodTitle-360x259.jpg" alt="FreqPeriodTitle" width="360" height="259"></a>  
   
@@ -11,7 +11,7 @@ For frequency measurement in the audio or sub audio range the determination of t
   
 <a href="https://github.com/BlackBrix/Frequency-Measurement-Library/raw/master/pics/FreqPeriodSch05.jpg"><img title="FreqPeriodSch05" src="https://github.com/BlackBrix/Frequency-Measurement-Library/raw/master/pics/FreqPeriodSch05-360x243.jpg" alt="FreqPeriodSch05" width="360" height="243"></a>  
   
-## The Measurement
+### The Measurement
 
 When the Input Signal crosses a threshold determined by the input network a capture event is triggered by the hardware. Counter1 TCNT1 is incremented continuously by the 16MHz clock. The capture event takes a snapshot of Counter1 TCNT1 which is written into the capture register ICR1. The Library takes the difference of ICR1 between two capture events and returns the result as the period length of the input signal. On a Counter1 overflow between two events a constant value of 65536 is added to the result so that the overall precision is enhanced to long integer format. The Analog Comparator triggers the event when the input signal is greater than 100 mV. With a bias resistor on pin 5 the trigger threshold is toggled to get better noise immunity which works similar like a Schmitt-Trigger circuit. The picture shows how a sine wave is detected by the Analog Comparator.  
   
@@ -101,7 +101,7 @@ void printDouble( double val, byte precision){
 
 The Library is tested on Atmega168/328  
   
-Download FreqPeriod Library  (updated 1/2012)  
+Download (original from Author) [FreqPeriod Library](http://interface.khm.de/wp-content/uploads/2010/06/FreqPeriod_1_12.zip)  (updated 1/2012)  
   
 Martin Nawrath / KHM 2010  
 
