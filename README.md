@@ -17,7 +17,7 @@ However the best results are obtained when the input signal is a square wave lik
 <a href="http://interface.khm.de/wp-content/uploads/2010/06/FreqPeriod_wind_sq.png"><img class="alignnone size-large wp-image-2525" title="FreqPeriod_wind_sq" src="http://interface.khm.de/wp-content/uploads/2010/06/FreqPeriod_wind_sq-276x270.png" alt="FreqPeriod_wind_sq" width="276" height="270"></a>    
   
 The library returns the measured period length in 1/16 us steps as a long integer. To get the frequency, the clock frequency has to divided by the returned value. The clock frequency is set in this example to 16000400 to compensate inaccuracies of the Arduino board.  
-```
+```C++
 /* Frequency & Period Measurement for Audio
  * connect pin 5,6,7 to input circuit
  *
