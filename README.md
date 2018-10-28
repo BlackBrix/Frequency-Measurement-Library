@@ -1,8 +1,13 @@
+This library is "cloned" from here (including the this readme-file):  
+http://interface.khm.de/index.php/lab/interfaces-advanced/frequency-measurement-library/  
+  
+---------
+  
 # Frequency-Measurement-Library  
   
 <a href="https://github.com/BlackBrix/Frequency-Measurement-Library/raw/master/pics/FreqPeriodTitle.jpg"><img title="FreqPeriodTitle" src="https://github.com/BlackBrix/Frequency-Measurement-Library/raw/master/pics/FreqPeriodTitle-360x259.jpg" alt="FreqPeriodTitle" width="360" height="259"></a>  
   
-For frequency measurement in the audio or sub audio range the determination of the signal period length delivers the most accurate results. The architecture of the ATMEGA chip provides a special Counter and Capture unit which is designed to  do this job with a high precision. Compared to a Frequency Counter Library published here before, this method delivers a higher accuracy and speed in the range below 20 KHz.  
+For frequency measurement in the audio or sub audio range the determination of the signal period length delivers the most accurate results. The architecture of the ATMEGA chip provides a special Counter and Capture unit which is designed to  do this job with a high precision. Compared to a [Frequency Counter Library](https://github.com/BlackBrix/Arduino-Frequency-Counter-Library) published here before, this method delivers a higher accuracy and speed in the range below 20 KHz.  
   
 <a href="https://github.com/BlackBrix/Frequency-Measurement-Library/raw/master/pics/FreqPeriodSch05.jpg"><img title="FreqPeriodSch05" src="https://github.com/BlackBrix/Frequency-Measurement-Library/raw/master/pics/FreqPeriodSch05-360x243.jpg" alt="FreqPeriodSch05" width="360" height="243"></a>  
   
